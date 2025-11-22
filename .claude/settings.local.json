@@ -1,0 +1,34 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run db:generate:*)",
+      "Bash(npm run dev:*)",
+      "Bash(netstat:*)",
+      "Bash(findstr:*)",
+      "Bash(cmd //c \"taskkill /PID 58940 /F\")",
+      "Bash(npm run db:push:*)",
+      "Bash(pg_isready:*)",
+      "Bash(docker:*)",
+      "Bash(npx prisma db push:*)",
+      "Bash(cmd //c \"taskkill /PID 20608 /F\")",
+      "Bash(cmd //c:*)",
+      "Bash(dir:*)",
+      "Bash(cat:*)",
+      "Bash(taskkill:*)",
+      "Bash(npx tsc:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "mcp__firecrawl__firecrawl_search",
+      "mcp__firecrawl__firecrawl_scrape",
+      "Bash(npm install:*)",
+      "Bash(tasklist:*)",
+      "Bash(npx prisma generate:*)",
+      "Bash(curl:*)",
+      "Bash(find:*)",
+      "Bash(git checkout:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
