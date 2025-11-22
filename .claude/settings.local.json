@@ -26,7 +26,15 @@
       "Bash(npx prisma generate:*)",
       "Bash(curl:*)",
       "Bash(find:*)",
-      "Bash(git checkout:*)"
+      "Bash(git checkout:*)",
+      "Bash(git remote add:*)",
+      "Bash(gh pr create:*)",
+      "Bash(winget install:*)",
+      "Bash(gh --version:*)",
+      "Bash(\"C:\\Program Files\\GitHub CLI\\gh.exe\" --version)",
+      "Bash(\"C:\\Program Files\\GitHub CLI\\gh.exe\" auth status)",
+      "Bash(git merge:*)",
+      "Bash(git branch:*)"
     ],
     "deny": [],
     "ask": []
